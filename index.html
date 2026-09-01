@@ -340,85 +340,6 @@
         </div>
 
 
-        <!-- READY TO BOOK -->
-        <section class="booking-strip">
-
-          <div class="booking-intro">
-            <div class="booking-phone-icon">▣</div>
-
-            <div>
-              <h3>Ready to Book?</h3>
-              <p>
-                Shea only accepts inquiries through text.
-                Fill out the form and tap “TEXT SHEA” to open
-                your Messages app with your request already written.
-              </p>
-            </div>
-          </div>
-
-          <form class="booking-form" id="textForm">
-
-            <div class="booking-row">
-              <input
-                type="text"
-                id="clientName"
-                placeholder="YOUR NAME"
-                autocomplete="name"
-                required>
-
-              <input
-                type="tel"
-                id="clientPhone"
-                placeholder="PHONE NUMBER"
-                autocomplete="tel">
-            </div>
-
-            <select id="clientService" required>
-              <option value="">SERVICE YOU'RE INTERESTED IN</option>
-              <option value="Brows - $38">Brows — $38</option>
-              <option value="Brow & Blading - $65">Brow &amp; Blading — $65</option>
-              <option value="Brow Lamination - $95">Brow Lamination — $95</option>
-              <option value="Facial - $85">Facial — $85</option>
-              <option value="Facial + Brows - $110">Facial + Brows — $110</option>
-              <option value="Facial + Brows & Dermablading - $130">
-                Facial + Brows &amp; Dermablading — $130
-              </option>
-              <option value="Lip Waxing Add-On - $5">Lip Waxing Add-On — $5</option>
-              <option value="Chin Waxing Add-On - $5">Chin Waxing Add-On — $5</option>
-            </select>
-
-            <input
-              type="text"
-              id="clientAvailability"
-              placeholder="PREFERRED DATE & TIME">
-
-            <textarea
-              id="clientMessage"
-              placeholder="TELL SHEA MORE (OPTIONAL)"></textarea>
-
-          </form>
-
-          <div class="booking-action">
-            <button
-              type="submit"
-              form="textForm"
-              class="text-shea-btn">
-              TEXT SHEA +
-            </button>
-
-            <a
-              class="booking-number"
-              href="sms:+12059484582">
-              (205) 948-4582
-            </a>
-
-            <p class="booking-note">
-              This site does not send email inquiries.
-              Your message opens directly in your text app.
-            </p>
-          </div>
-
-        </section>
 
       </div>
 
@@ -629,6 +550,24 @@
             </div>
           </a>
 
+          <div class="contact-extra-links">
+            <a class="contact-item" href="mailto:larynshea@gmail.com">
+              <span class="icon-circle">✉</span>
+              <div>
+                <p class="label">EMAIL</p>
+                <p class="contact-value">larynshea@gmail.com</p>
+              </div>
+            </a>
+
+            <a class="contact-item" href="https://www.instagram.com/sheasheabeauty/" target="_blank" rel="noopener noreferrer">
+              <span class="icon-circle">◎</span>
+              <div>
+                <p class="label">INSTAGRAM</p>
+                <p class="contact-value">@sheasheabeauty</p>
+              </div>
+            </a>
+          </div>
+
           <p class="contact-note">
             Fill out the form and tap “TEXT SHEA +”.
             Your phone’s Messages app will open with your inquiry already written.
@@ -646,47 +585,85 @@
 
       </div>
 
-      <div class="contact-form-box">
-        <form id="contactTextForm">
+      <!-- READY TO BOOK — CONTACT PAGE ONLY -->
+      <section class="booking-strip contact-booking-strip">
 
-          <div class="contact-row">
+        <div class="booking-intro">
+          <div class="booking-phone-icon">▣</div>
+
+          <div>
+            <h3>Ready to Book?</h3>
+            <p>
+              Shea only accepts inquiries through text.
+              Fill out the form and tap “TEXT SHEA +” to open
+              your Messages app with your request already written.
+            </p>
+          </div>
+        </div>
+
+        <form class="booking-form" id="textForm">
+
+          <div class="booking-row">
             <input
               type="text"
-              id="contactName"
+              id="clientName"
               placeholder="YOUR NAME"
               autocomplete="name"
               required>
 
-            <select id="contactService" required>
-              <option value="">SELECT SERVICE</option>
-              <option value="Brows - $38">Brows — $38</option>
-              <option value="Brow & Blading - $65">Brow &amp; Blading — $65</option>
-              <option value="Brow Lamination - $95">Brow Lamination — $95</option>
-              <option value="Facial - $85">Facial — $85</option>
-              <option value="Facial + Brows - $110">Facial + Brows — $110</option>
-              <option value="Facial + Brows & Dermablading - $130">
-                Facial + Brows &amp; Dermablading — $130
-              </option>
-            </select>
+            <input
+              type="tel"
+              id="clientPhone"
+              placeholder="PHONE NUMBER"
+              autocomplete="tel">
           </div>
+
+          <select id="clientService" required>
+            <option value="">SERVICE YOU'RE INTERESTED IN</option>
+            <option value="Brows - $38">Brows — $38</option>
+            <option value="Brow & Blading - $65">Brow &amp; Blading — $65</option>
+            <option value="Brow Lamination - $95">Brow Lamination — $95</option>
+            <option value="Facial - $85">Facial — $85</option>
+            <option value="Facial + Brows - $110">Facial + Brows — $110</option>
+            <option value="Facial + Brows & Dermablading - $130">
+              Facial + Brows &amp; Dermablading — $130
+            </option>
+            <option value="Lip Waxing Add-On - $5">Lip Waxing Add-On — $5</option>
+            <option value="Chin Waxing Add-On - $5">Chin Waxing Add-On — $5</option>
+          </select>
 
           <input
             type="text"
-            id="contactAvailability"
+            id="clientAvailability"
             placeholder="PREFERRED DATE & TIME">
 
           <textarea
-            id="contactMessage"
-            placeholder="MESSAGE"></textarea>
+            id="clientMessage"
+            placeholder="TELL SHEA MORE (OPTIONAL)"></textarea>
 
+        </form>
+
+        <div class="booking-action">
           <button
             type="submit"
-            class="contact-send-btn">
+            form="textForm"
+            class="text-shea-btn">
             TEXT SHEA +
           </button>
 
-        </form>
-      </div>
+          <a
+            class="booking-number"
+            href="sms:+12059484582">
+            (205) 948-4582
+          </a>
+
+          <p class="booking-note">
+            This site does not send email inquiries.
+            Your message opens directly in your text app.
+          </p>
+        </div>
+
+      </section>
 
     </section>
 
