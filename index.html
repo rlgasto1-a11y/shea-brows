@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shea Brows</title>
+
+  <link rel="icon" type="image/png" href="sheaFavicon.png">
+  <link rel="stylesheet" href="style.css">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- LEFT NAVIGATION -->
+  <div class="left-panel">
+
+    <aside class="sidebar">
+
+      <div class="mobile-top">
+        <div class="logo">
+          <h1>Shea</h1>
+          <p>BROW<br>ARTISTRY</p>
+        </div>
+
+        <div class="mobile-sun-logo" aria-hidden="true">
+          <img src="sheaWSlogo.png" alt="">
+        </div>
+
+        <button
+          class="hamburger"
+          id="hamburger"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+      <nav class="menu" id="menu">
+        <a href="#home" class="pill" data-number="01">HOME</a>
+        <a href="#services" class="pill active" data-number="02">SERVICES</a>
+        <a href="#about" class="pill" data-number="03">ABOUT</a>
+        <a href="#gallery" class="pill" data-number="04">GALLERY</a>
+        <a href="#contact" class="pill" data-number="05">CONTACT</a>
+      </nav>
+
+      <div class="circle">
+        <img src="sheaWSlogo.png" alt="Shea Brows logo">
+      </div>
+
+    </aside>
+
+    <div class="middle-strip" aria-hidden="true">
+      <div class="top-circle"></div>
+      <span class="number" id="section-number">02</span>
+
+      <div class="line"></div>
+
+      <div class="labels">
+        <span>PRECISION</span>
+        <span>CONFIDENCE</span>
+        <span>BEAUTY</span>
+      </div>
+
+      <div class="bottom-circle one"></div>
+      <div class="bottom-circle two"></div>
+    </div>
+
+  </div>
+
+
+  <!-- MAIN -->
+  <main class="main-container" id="main-container">
+
+    <!-- HOME -->
+    <section
+      class="hero"
+      id="home"
+      data-section-number="01">
+
+      <div class="hero-photo" aria-hidden="true"></div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+
+      <div class="hero-content">
+        <p class="small">WELCOME TO SHEA BROWS</p>
+
+        <h1>Brows That<br>Frame Confidence</h1>
+
+        <p class="sub">
+          Precision shaping. Flawless results.<br>
+          Tailored just for you.
+        </p>
+
+        <a href="#services" class="btn">VIEW SERVICES</a>
+      </div>
+
+      <div class="services-preview">
+        <div class="preview-card">
+          <div class="preview-icon">✦</div>
+          <h4>BROWS</h4>
+          <span class="preview-price">$38</span>
+          <p>
+            Spa brow experience with custom shaping, tinting,
+            brow massage, and warm towel treatment.
+          </p>
+        </div>
+
+        <div class="preview-divider"></div>
+
+        <div class="preview-card">
+          <div class="preview-icon">✿</div>
+          <h4>BROW &amp; BLADING</h4>
+          <span class="preview-price">$65</span>
+          <p>
+            Brow shaping and tinting with face dermablading,
+            moisturizing mask, warm towel, and face massage.
+          </p>
+        </div>
+
+        <div class="preview-divider"></div>
+
+        <div class="preview-card">
+          <div class="preview-icon">✧</div>
+          <h4>BROW LAMINATION</h4>
+          <span class="preview-price">$95</span>
+          <p>
+            High-shine treatment for thinning, gaps, unruly brows,
+            or clients who want a bolder long-lasting tint.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- SERVICES -->
+    <section
+      class="services-section"
+      id="services"
+      data-section-number="02">
+
+      <div class="services-bg" aria-hidden="true"></div>
+      <div class="services-overlay" aria-hidden="true"></div>
+
+      <div class="services-content">
+
+        <header class="services-header">
+          <p class="small">SERVICES + PRICING</p>
+
+          <h2>Choose Your Treatment</h2>
+
+          <div class="section-rule">
+            <span></span>
+            <b>✦</b>
+            <span></span>
+          </div>
+
+          <p class="services-intro">
+            Brow services, facial treatments, and simple add-ons designed
+            to leave you feeling polished, refreshed, and confident.
+          </p>
+        </header>
+
+
+        <div class="pricing-grid">
+
+          <!-- BROW SERVICES -->
+          <article class="pricing-card brow-card">
+
+            <div class="pricing-card-title">
+              <span>✦</span>
+              <h3>BROW SERVICES</h3>
+              <span>✧</span>
+            </div>
+
+            <div class="pricing-divider"></div>
+
+            <div class="service-row">
+              <div class="service-copy">
+                <h4>BROWS</h4>
+                <p>
+                  Includes a spa brow experience with custom brow waxing
+                  for reshaping thinning brows or brows that have lost shape.
+                  Tinting, brow massage, and a warm towel treatment are included.
+                </p>
+              </div>
+              <div class="service-cost">$38</div>
+            </div>
+
+            <div class="pricing-divider"></div>
+
+            <div class="service-row">
+              <div class="service-copy">
+                <h4>BROW &amp; BLADING</h4>
+                <p>
+                  Includes custom brow shaping, tinting, face dermablading,
+                  a moisturizing mask, warm towel treatment, and face massage.
+                </p>
+              </div>
+              <div class="service-cost">$65</div>
+            </div>
+
+            <div class="pricing-divider"></div>
+
+            <div class="service-row">
+              <div class="service-copy">
+                <h4>BROW LAMINATION</h4>
+                <p>
+                  Includes a high-shine brow treatment for thinning,
+                  gaps, unruly brows, or brows that lack shape.
+                  Also ideal for clients who want a bolder, longer-lasting tint.
+                </p>
+              </div>
+              <div class="service-cost">$95</div>
+            </div>
+
+            <div class="pricing-divider"></div>
+
+            <div class="addons-block">
+              <p class="addons-label">ADD-ONS</p>
+
+              <div class="addon-pills">
+                <div class="addon-pill">
+                  <span>LIP WAXING</span>
+                  <strong>$5</strong>
+                </div>
+
+                <div class="addon-pill">
+                  <span>CHIN WAXING</span>
+                  <strong>$5</strong>
+                </div>
+              </div>
+            </div>
+
+          </article>
+
+
+          <!-- FACIALS -->
+          <article class="pricing-card facial-card">
+
+            <div class="pricing-card-title">
+              <span>✦</span>
+              <h3>FACIALS</h3>
+              <span>✦</span>
+            </div>
+
+            <div class="pricing-divider"></div>
+
+            <div class="service-row facial-main-row">
+              <div class="service-copy">
+                <h4>ALL FACIALS</h4>
+                <p>
+                  All facials include diamond-tip microdermabrasion,
+                  scrub, mask, luxurious warm hand mittens, and a hand massage.
+                  Diamond microdermabrasion helps stimulate the deeper layers
+                  of the skin and supports a smoother, fuller, more youthful-looking finish.
+                </p>
+              </div>
+              <div class="service-cost">$85</div>
+            </div>
+
+            <div class="pricing-divider"></div>
+
+            <div class="facial-option">
+              <div class="facial-icon">〰</div>
+              <div>
+                <h4>SAND &amp; SEA</h4>
+                <p>
+                  Volcanic ash microdermabrasion scrub with a Pink Australian
+                  sand clay mask. A strong exfoliating and discoloration-focused treatment.
+                </p>
+              </div>
+            </div>
+
+            <div class="pricing-divider"></div>
+
+            <div class="facial-option">
+              <div class="facial-icon">☾</div>
+              <div>
+                <h4>MOON &amp; STARS</h4>
+                <p>
+                  Peppermint microdermabrasion scrub with a Moon Velvet mask.
+                  Cooling exfoliation paired with deep hydration for soft, nourished skin.
+                </p>
+              </div>
+            </div>
+
+            <div class="pricing-divider"></div>
+
+            <div class="facial-option">
+              <div class="facial-icon">✿</div>
+              <div>
+                <h4>BERRY &amp; GLAZE</h4>
+                <p>
+                  Rose scrub with a berry peel-off or glycolic peel-off mask.
+                  Designed for stronger exfoliation and a bright, glazed-looking finish.
+                </p>
+              </div>
+            </div>
+
+            <div class="pricing-divider"></div>
+
+            <div class="facial-option">
+              <div class="facial-icon">≋</div>
+              <div>
+                <h4>STEAM &amp; GLEAM</h4>
+                <p>
+                  Face steaming with an anti-inflammatory moisturizing calendula mask.
+                  Designed for glow, circulation support, breakouts, redness,
+                  or sensitive-feeling skin.
+                </p>
+              </div>
+            </div>
+
+            <div class="pricing-divider"></div>
+
+            <div class="addons-block">
+              <p class="addons-label">FACIAL ADD-ONS</p>
+
+              <div class="addon-pills">
+                <div class="addon-pill">
+                  <span>BROWS</span>
+                  <strong>$110</strong>
+                </div>
+
+                <div class="addon-pill wide">
+                  <span>BROWS &amp; DERMABLADING</span>
+                  <strong>$130</strong>
+                </div>
+              </div>
+            </div>
+
+          </article>
+
+        </div>
+
+
+        <!-- READY TO BOOK -->
+        <section class="booking-strip">
+
+          <div class="booking-intro">
+            <div class="booking-phone-icon">▣</div>
+
+            <div>
+              <h3>Ready to Book?</h3>
+              <p>
+                Shea only accepts inquiries through text.
+                Fill out the form and tap “TEXT SHEA” to open
+                your Messages app with your request already written.
+              </p>
+            </div>
+          </div>
+
+          <form class="booking-form" id="textForm">
+
+            <div class="booking-row">
+              <input
+                type="text"
+                id="clientName"
+                placeholder="YOUR NAME"
+                autocomplete="name"
+                required>
+
+              <input
+                type="tel"
+                id="clientPhone"
+                placeholder="PHONE NUMBER"
+                autocomplete="tel">
+            </div>
+
+            <select id="clientService" required>
+              <option value="">SERVICE YOU'RE INTERESTED IN</option>
+              <option value="Brows - $38">Brows — $38</option>
+              <option value="Brow & Blading - $65">Brow &amp; Blading — $65</option>
+              <option value="Brow Lamination - $95">Brow Lamination — $95</option>
+              <option value="Facial - $85">Facial — $85</option>
+              <option value="Facial + Brows - $110">Facial + Brows — $110</option>
+              <option value="Facial + Brows & Dermablading - $130">
+                Facial + Brows &amp; Dermablading — $130
+              </option>
+              <option value="Lip Waxing Add-On - $5">Lip Waxing Add-On — $5</option>
+              <option value="Chin Waxing Add-On - $5">Chin Waxing Add-On — $5</option>
+            </select>
+
+            <input
+              type="text"
+              id="clientAvailability"
+              placeholder="PREFERRED DATE & TIME">
+
+            <textarea
+              id="clientMessage"
+              placeholder="TELL SHEA MORE (OPTIONAL)"></textarea>
+
+          </form>
+
+          <div class="booking-action">
+            <button
+              type="submit"
+              form="textForm"
+              class="text-shea-btn">
+              TEXT SHEA +
+            </button>
+
+            <a
+              class="booking-number"
+              href="sms:+12059484582">
+              (205) 948-4582
+            </a>
+
+            <p class="booking-note">
+              This site does not send email inquiries.
+              Your message opens directly in your text app.
+            </p>
+          </div>
+
+        </section>
+
+      </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+    <section
+      class="about-section"
+      id="about"
+      data-section-number="03">
+
+      <div class="about-content">
+        <p class="about-kicker">ABOUT ME</p>
+
+        <h2>Hi, I'm Shea</h2>
+
+        <p class="about-tagline">
+          Brow artist. Detail lover. Confidence builder.
+        </p>
+
+        <div class="about-line"></div>
+
+        <div class="about-text">
+          <p>
+            Based in Birmingham, Alabama, I’ve always had a love
+            for beauty and helping people feel good about themselves.
+            For me, brows aren’t just about the perfect shape —
+            they’re about bringing out what’s already naturally beautiful about you.
+          </p>
+
+          <p>
+            I take the time to understand what each client wants
+            and create brows that fit their face, style, and personality.
+            Whether you like them soft and natural or more defined,
+            my goal is for you to leave feeling confident and loving your brows.
+          </p>
+
+          <p>
+            Birmingham is home, and I’m proud to create a space
+            where every client feels comfortable, welcomed, and beautiful.
+          </p>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- GALLERY -->
+    <section
+      class="panel gallery-section"
+      id="gallery"
+      data-section-number="04">
+
+      <div class="gallery-heading-row">
+        <div class="gallery-heading">
+          <p class="small">MY WORK</p>
+          <h2>Gallery</h2>
+        </div>
+
+        <div class="gallery-heading-line" aria-hidden="true">
+          <span>✦</span>
+        </div>
+      </div>
+
+      <p class="gallery-intro">
+        A closer look at brow shaping, lamination, facial treatments,
+        and natural results from Shea Brows.
+      </p>
+
+      <div class="gallery-editorial-grid">
+
+        <!-- LARGE FEATURE VIDEO -->
+        <div class="gallery-feature-video">
+          <video
+            controls
+            playsinline
+            preload="metadata"
+            poster="gallery1.png"
+            aria-label="Shea Brows eyebrow transformation video">
+
+            <!-- MP4 should be the main file for Chrome/Safari/phones -->
+            <source src="gallery-video.mp4" type="video/mp4">
+
+            <!-- MOV fallback -->
+            <source src="gallery video.mov" type="video/quicktime">
+
+            Your browser does not support the video tag.
+          </video>
+
+          <div class="feature-video-caption">
+            <span>01</span>
+            <div>
+              <p>BROW PROCESS</p>
+              <small>See the treatment in motion</small>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT PHOTO STACK -->
+        <div class="gallery-photo-stack">
+
+          <figure class="gallery-card gallery-card-tall">
+            <img src="gallery1.png" alt="Finished Shea Brows eyebrow work">
+            <figcaption>FINISHED BROWS</figcaption>
+          </figure>
+
+          <div class="gallery-mini-row">
+            <figure class="gallery-card">
+              <img src="gallery2.png" alt="Finished eyebrow shaping result">
+            </figure>
+
+            <figure class="gallery-card">
+              <img src="gallery3.png" alt="Shea Brows beauty service detail">
+            </figure>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- SECOND PHOTO ROW -->
+      <div class="gallery-secondary-grid">
+
+        <figure class="gallery-card">
+          <img src="gallery4.png" alt="Finished brow and beauty look">
+          <figcaption>SHAPED + DEFINED</figcaption>
+        </figure>
+
+        <figure class="gallery-card">
+          <img src="gallery5.png" alt="Shea Brows treatment and beauty products">
+          <figcaption>BEAUTY DETAIL</figcaption>
+        </figure>
+
+        <figure class="gallery-card">
+          <img src="gallery8.png" alt="Detailed eyebrow work">
+          <figcaption>NATURAL FINISH</figcaption>
+        </figure>
+
+        <figure class="gallery-card">
+          <img src="gallery9.png" alt="Finished natural eyebrow result">
+          <figcaption>FINAL LOOK</figcaption>
+        </figure>
+
+      </div>
+
+
+      <!-- BEFORE + AFTER -->
+      <div class="before-after-heading">
+        <p class="small">TRANSFORMATION</p>
+        <h3>Before + After</h3>
+      </div>
+
+      <div class="gallery-before-after">
+
+        <figure class="before-after-photo">
+          <img src="gallerybefore6.png" alt="Eyebrows before Shea Brows service">
+          <figcaption>BEFORE</figcaption>
+        </figure>
+
+        <div class="before-after-arrow" aria-hidden="true">→</div>
+
+        <figure class="before-after-photo">
+          <img src="galleryAfter7.png" alt="Eyebrows after Shea Brows service">
+          <figcaption>AFTER</figcaption>
+        </figure>
+
+      </div>
+
+      <a href="#contact" class="gallery-book-link">
+        TEXT SHEA TO BOOK +
+      </a>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section
+      class="panel contact-section"
+      id="contact"
+      data-section-number="05">
+
+      <div class="contact-top">
+
+        <div class="contact-left">
+          <p class="small">LET'S CONNECT</p>
+
+          <h2>Text Shea</h2>
+
+          <div class="contact-title-line">
+            <span></span>
+            <span class="contact-star">✦</span>
+            <span></span>
+          </div>
+
+          <p class="contact-sub">
+            Have a question or ready to book?<br>
+            Shea prefers text inquiries only.
+          </p>
+
+          <a class="contact-item contact-phone-link" href="sms:+12059484582">
+            <span class="icon-circle">☎</span>
+
+            <div>
+              <p class="label">TEXT ONLY</p>
+              <p class="contact-value">(205) 948-4582</p>
+            </div>
+          </a>
+
+          <p class="contact-note">
+            Fill out the form and tap “TEXT SHEA +”.
+            Your phone’s Messages app will open with your inquiry already written.
+          </p>
+        </div>
+
+        <div class="contact-art" aria-label="Shea Brows eyebrow service">
+          <div class="image-slice slice-1"></div>
+          <div class="image-slice slice-2"></div>
+          <div class="image-slice slice-3"></div>
+          <div class="image-slice slice-4"></div>
+          <div class="image-slice slice-5"></div>
+          <div class="image-slice slice-6"></div>
+        </div>
+
+      </div>
+
+      <div class="contact-form-box">
+        <form id="contactTextForm">
+
+          <div class="contact-row">
+            <input
+              type="text"
+              id="contactName"
+              placeholder="YOUR NAME"
+              autocomplete="name"
+              required>
+
+            <select id="contactService" required>
+              <option value="">SELECT SERVICE</option>
+              <option value="Brows - $38">Brows — $38</option>
+              <option value="Brow & Blading - $65">Brow &amp; Blading — $65</option>
+              <option value="Brow Lamination - $95">Brow Lamination — $95</option>
+              <option value="Facial - $85">Facial — $85</option>
+              <option value="Facial + Brows - $110">Facial + Brows — $110</option>
+              <option value="Facial + Brows & Dermablading - $130">
+                Facial + Brows &amp; Dermablading — $130
+              </option>
+            </select>
+          </div>
+
+          <input
+            type="text"
+            id="contactAvailability"
+            placeholder="PREFERRED DATE & TIME">
+
+          <textarea
+            id="contactMessage"
+            placeholder="MESSAGE"></textarea>
+
+          <button
+            type="submit"
+            class="contact-send-btn">
+            TEXT SHEA +
+          </button>
+
+        </form>
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- JAVASCRIPT -->
+  <script>
+    const sectionNumber = document.getElementById("section-number");
+    const navButtons = document.querySelectorAll(".menu .pill");
+    const hamburger = document.getElementById("hamburger");
+    const menu = document.getElementById("menu");
+
+    function setActiveSection(number, id) {
+      sectionNumber.textContent = number;
+
+      navButtons.forEach(function(button) {
+        button.classList.remove("active");
+      });
+
+      const activeButton =
+        document.querySelector('.menu a[href="#' + id + '"]');
+
+      if (activeButton) {
+        activeButton.classList.add("active");
+      }
+    }
+
+    navButtons.forEach(function(button) {
+      button.addEventListener("click", function() {
+        const number = button.getAttribute("data-number");
+        const id = button.getAttribute("href").replace("#", "");
+
+        setActiveSection(number, id);
+        closeMobileMenu();
+      });
+    });
+
+    hamburger.addEventListener("click", function() {
+      menu.classList.toggle("open");
+      hamburger.classList.toggle("open");
+
+      const isOpen = menu.classList.contains("open");
+      hamburger.setAttribute("aria-expanded", isOpen);
+    });
+
+    function closeMobileMenu() {
+      menu.classList.remove("open");
+      hamburger.classList.remove("open");
+      hamburger.setAttribute("aria-expanded", "false");
+    }
+
+    const observedSections = [
+      { id: "home", number: "01" },
+      { id: "services", number: "02" },
+      { id: "about", number: "03" },
+      { id: "gallery", number: "04" },
+      { id: "contact", number: "05" }
+    ];
+
+    const observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          const match = observedSections.find(
+            function(item) {
+              return item.id === entry.target.id;
+            }
+          );
+
+          if (match) {
+            setActiveSection(match.number, match.id);
+          }
+        }
+      });
+    }, {
+      root: document.getElementById("main-container"),
+      threshold: 0.45
+    });
+
+    observedSections.forEach(function(item) {
+      const el = document.getElementById(item.id);
+      if (el) observer.observe(el);
+    });
+
+    const textForm = document.getElementById("textForm");
+
+    textForm.addEventListener("submit", function(event) {
+      event.preventDefault();
+
+      const name =
+        document.getElementById("clientName").value.trim();
+
+      const phone =
+        document.getElementById("clientPhone").value.trim();
+
+      const service =
+        document.getElementById("clientService").value;
+
+      const availability =
+        document.getElementById("clientAvailability").value.trim();
+
+      const message =
+        document.getElementById("clientMessage").value.trim();
+
+      let text =
+        "Hi Shea! My name is " + name + ".\n\n" +
+        "I'm interested in: " + service + ".\n";
+
+      if (phone) {
+        text += "\nMy phone number is: " + phone + ".\n";
+      }
+
+      if (availability) {
+        text += "\nPreferred date/time: " + availability + ".\n";
+      }
+
+      if (message) {
+        text += "\n" + message;
+      }
+
+      const sheaNumber = "12059484582";
+
+      window.location.href =
+        "sms:" + sheaNumber + "?body=" + encodeURIComponent(text);
+    });
+
+    const contactTextForm = document.getElementById("contactTextForm");
+
+    if (contactTextForm) {
+      contactTextForm.addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        const name =
+          document.getElementById("contactName").value.trim();
+
+        const service =
+          document.getElementById("contactService").value;
+
+        const availability =
+          document.getElementById("contactAvailability").value.trim();
+
+        const message =
+          document.getElementById("contactMessage").value.trim();
+
+        let text =
+          "Hi Shea! My name is " + name + ".\\n\\n" +
+          "I'm interested in: " + service + ".\\n";
+
+        if (availability) {
+          text += "\\nPreferred date/time: " + availability + ".\\n";
+        }
+
+        if (message) {
+          text += "\\n" + message;
+        }
+
+        window.location.href =
+          "sms:12059484582?body=" + encodeURIComponent(text);
+      });
+    }
+  </script>
+
+</body>
+</html>
